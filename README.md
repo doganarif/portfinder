@@ -7,15 +7,19 @@ Built with Go for speed, clarity, and zero runtime dependencies.
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-lightgrey)
 
+## 🎬 Preview
+
+![pf in action](pf.gif)
+
 ---
 
 ## ✨ Features
 
-- 🔍 **Smart Process Detection** — Instantly find what's using your ports  
-- 📁 **Project Awareness** — Shows which project/directory owns the process  
-- 🐳 **Docker Support** — Identifies containerized processes  
-- 🎯 **Quick Actions** — Kill processes interactively or directly  
-- 📊 **Port Overview** — Check all common development ports  
+- 🔍 **Smart Process Detection** — Instantly find what's using your ports
+- 📁 **Project Awareness** — Shows which project/directory owns the process
+- 🐳 **Docker Support** — Identifies containerized processes
+- 🎯 **Quick Actions** — Kill processes interactively or directly
+- 📊 **Port Overview** — Check all common development ports
 - 🚀 **Fast & Lightweight** — Single binary, no runtime dependencies
 
 ---
@@ -27,7 +31,7 @@ Built with Go for speed, clarity, and zero runtime dependencies.
 ```bash
 brew tap doganarif/tap
 brew install pf
-````
+```
 
 ### 🧰 Using Go
 
@@ -160,8 +164,8 @@ Example:
 
 ### Prerequisites
 
-* Go 1.21+
-* Make (optional)
+- Go 1.21+
+- Make (optional)
 
 ### Building from source
 
@@ -218,9 +222,9 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## 🙌 Acknowledgments
 
-* Inspired by the frustration of "port already in use" errors
-* Built using [Cobra](https://github.com/spf13/cobra) for CLI
-* Terminal UI powered by [Bubbletea](https://github.com/charmbracelet/bubbletea)
+- Inspired by the frustration of "port already in use" errors
+- Built using [Cobra](https://github.com/spf13/cobra) for CLI
+- Terminal UI powered by [Bubbletea](https://github.com/charmbracelet/bubbletea)
 
 ---
 
@@ -228,7 +232,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 **Arif Doğan**
 
-* GitHub: [@doganarif](https://github.com/doganarif)
-* Twitter: [@arifcodes](https://twitter.com/arifcodes)
+- GitHub: [@doganarif](https://github.com/doganarif)
+- Twitter: [@arifcodes](https://twitter.com/arifcodes)
 
 > If you find this tool useful, please consider giving it a ⭐️ on GitHub!
