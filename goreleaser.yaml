@@ -1,0 +1,41 @@
+version: 2
+
+project_name: pf
+
+builds:
+  - main: ./cmd/portfinder/main.go
+    binary: pf
+    goos:
+      - darwin
+      - linux
+    goarch:
+      - amd64
+      - arm64
+    ldflags:
+      - -s -w -X main.version={{.Version}} -X main.commit={{.Commit}} -X main.date={{.Date}}
+
+archives:
+  - format: tar.gz
+    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    files:
+      - LICENSE
+      - README.md
+
+checksum:
+  name_template: "checksums.txt"
+
+brews:
+  - repository:
+      owner: doganarif
+      name: homebrew-tap
+    homepage: "https://github.com/doganarif/portfinder"
+    description: "Find and manage processes using network ports"
+    install: |
+      bin.install "pf"
+    test: |
+      system "#{bin}/pf", "version"
+
+release:
+  github:
+    owner: doganarif
+    name: portfinder
