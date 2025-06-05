@@ -5,7 +5,7 @@ Built with Go for speed, clarity, and zero runtime dependencies.
 
 ![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?style=flat&logo=go)
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-lightgrey)
+![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey)
 
 ## 🎬 Preview
 
@@ -32,6 +32,15 @@ Built with Go for speed, clarity, and zero runtime dependencies.
 brew tap doganarif/tap
 brew install pf
 ```
+
+### 🪟 Windows
+
+Download the latest `.exe` file from the [Releases Page](https://github.com/doganarif/portfinder/releases):
+
+- For 64-bit Windows: `pf-windows-amd64.exe`
+- For ARM64 Windows: `pf-windows-arm64.exe`
+
+Rename it to `pf.exe` and add to your PATH.
 
 ### 🧰 Using Go
 
