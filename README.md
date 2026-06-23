@@ -245,3 +245,15 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 - Twitter: [@arifcodes](https://twitter.com/arifcodes)
 
 > If you find this tool useful, please consider giving it a ⭐️ on GitHub!
+
+<!-- arif-signature:start -->
+
+---
+
+Built by [Arif Dogan](https://arif.sh) - production AI and backend engineer.
+
+I help SaaS teams ship production AI features, fast backends, and reliable developer tools.
+
+[Work with me](https://arif.sh/work) | [Book a 30-min intro](https://calendar.superhuman.com/book/11SzDRA4zo8tuYoehO/A3kIl)
+
+<!-- arif-signature:end -->
